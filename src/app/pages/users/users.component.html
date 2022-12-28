@@ -1,0 +1,24 @@
+<div class="container mt-3">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Username</th>
+        <th scope="col">Email</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Website</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let people of listPeople">
+        <th scope="row">{{ people.id }}</th>
+        <th scope="row">{{ people.name }}</th>
+        <td>{{ people.username }}</td>
+        <td>{{ people.email }}</td>
+        <td>{{ people.phone }}</td>
+        <td>{{ people.website }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

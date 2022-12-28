@@ -1,0 +1,15 @@
+.section-navbar {
+  padding: 1.5em 1em;
+  background: #333;
+
+  a {
+    color: #fff;
+    padding: 1em;
+    font-size: 1.1em;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
